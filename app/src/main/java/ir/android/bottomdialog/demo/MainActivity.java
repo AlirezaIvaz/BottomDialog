@@ -35,7 +35,4 @@ public class MainActivity extends AppCompatActivity {
                 .setNegativeText("Close")
                 .show();
     }
-    public void toGithub(View view) {
-        startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://github.com/javiersantos/BottomDialogs")));
-    }
 }
