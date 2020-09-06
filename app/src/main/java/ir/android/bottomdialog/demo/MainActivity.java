@@ -1,20 +1,12 @@
 package ir.android.bottomdialog.demo;
 
 import android.content.Context;
-import android.content.Intent;
-import android.graphics.Color;
-import android.net.Uri;
 import android.os.Bundle;
 import android.view.LayoutInflater;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
-
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-
 import ir.android.bottomdialog.BottomDialog;
 
 public class MainActivity extends AppCompatActivity {
