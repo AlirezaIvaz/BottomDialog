@@ -1,4 +1,4 @@
-<h1 align="center">BottomDialogs <a href="#how-to-include"><img src="https://jitpack.io/v/ir.alirezaivaz/BottomDialogs.svg"></a></h1>
+<h1 align="center">BottomDialogs <a href="https://jitpack.io/#ir.alirezaivaz/BottomDialog"><img src="https://jitpack.io/v/ir.alirezaivaz/BottomDialog.svg"></a></h1>
 <h4 align="center">Android Library</h4>
 
 <p align="center">Android Library that shows a customizable Material-based bottom sheet.</p>
