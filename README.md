@@ -145,7 +145,7 @@ bottomDialog.getTitleTextView().setTypeface(BaseActivity.getFont(Fonts.SEMI_BOLD
 bottomDialog.show();
 ```
 
-## Night theme
+### Night theme
 
 BottomDialog supports the auto night theme. When the app is set to the night theme, the night theme is automatically applied to BottomDialog. You just have to follow [this Android guide](https://developer.android.com/guide/topics/ui/look-and-feel/darktheme) for your app.
 
