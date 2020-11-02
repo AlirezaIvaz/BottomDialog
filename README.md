@@ -6,10 +6,10 @@
 <table align="center">
     <tr>
         <td>
-            <img src="https://raw.githubusercontent.com/AlirezaIvaz/BottomDialogs/master/Screenshots/gif-1.gif" height="400" />
+            <img src="https://raw.githubusercontent.com/AlirezaIvaz/BottomDialog/master/Screenshots/gif-1.gif" height="400" />
         </td>
         <td>
-            <img src="https://raw.githubusercontent.com/AlirezaIvaz/BottomDialogs/master/Screenshots/gif-2.gif" width="500" />
+            <img src="https://raw.githubusercontent.com/AlirezaIvaz/BottomDialog/master/Screenshots/gif-2.gif" width="500" />
         </td>
     </tr>
 </table>
@@ -30,7 +30,7 @@ And add the library to your module **build.gradle**:
 
 ```Gradle
 dependencies {
-    compile 'ir.alirezaivaz:BottomDialogs:1.0'
+    implementation 'ir.alirezaivaz:BottomDialogs:1.2'
 }
 ```
 
@@ -129,7 +129,7 @@ new BottomDialog.Builder(this)
 	.show();
 ```
 
-A detailed description is available at: https://github.com/javiersantos/BottomDialogs/wiki/Adding-a-custom-view
+A detailed description is available at [here](https://github.com/AlirezaIvaz/BottomDialog/wiki/Adding-a-custom-view)
 
 ### Adding a custom color and font
 
@@ -145,8 +145,13 @@ bottomDialog.getTitleTextView().setTypeface(BaseActivity.getFont(Fonts.SEMI_BOLD
 bottomDialog.show();
 ```
 
+## Night theme
+
+BottomDialog supports the auto night theme. When the app is set to the night theme, the night theme is automatically applied to BottomDialog. You just have to follow [this Android guide](https://developer.android.com/guide/topics/ui/look-and-feel/darktheme) for your app.
+
 ## License
 	Copyright 2016-2018 Javier Santos
+	Copyright 2017-2020 Alireza Ivaz
 
 	Licensed under the Apache License, Version 2.0 (the "License");
 	you may not use this file except in compliance with the License.
