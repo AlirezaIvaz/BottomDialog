@@ -129,7 +129,7 @@ new BottomDialog.Builder(this)
 	.show();
 ```
 
-A detailed description is available at [here](https://github.com/AlirezaIvaz/BottomDialog/wiki/Adding-a-custom-view)
+A detailed description is available at [here](https://github.com/AlirezaIvaz/BottomDialog/wiki/Adding-a-custom-view).
 
 ### Adding a custom color and font
 
